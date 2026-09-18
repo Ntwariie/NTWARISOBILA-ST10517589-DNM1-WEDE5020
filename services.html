@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Paws & Hope Animal Rescue website">
+<title>Enquiry | Paws &amp; Hope Animal Rescue</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<div class="brand">
+<img class="logo" src="images/logo.jpg" alt="Paws and Hope Animal Rescue logo">
+<div><h1>Paws &amp; Hope Animal Rescue</h1><p>Rescue, care and hope for animals in need.</p></div>
+</div>
+<nav>
+<a href="index.html">Home</a>
+<a href="about (2).html">About Us</a>
+<a href="services.html">Services</a>
+<a href="enquiry.html">Enquiry</a>
+<a href="contact.html">Contact</a>
+</nav>
+</header>
+<main>
+<!--Service 1: Adoption-->
+<section>
+<h2>1. Pet Adoption</h2>
+<p>we help you adopt dogs and cats that need loving homes.</p>
+</section>
+<!--Service 2: Rescue -->
+<section>
+<h3>2. Animal Rescue</h3>
+<p> 24/7 emergency rescue for abused and stray animals.</p>
+</section>
+<section><h3>Make an Enquiry</h3><img class="page-image" src="images/adopt-realistic.jpg" alt="Illustration representing animal adoption"><p>Complete the form below to make an adoption, fostering, volunteering or sponsorship enquiry.</p><form id="enquiryForm"><label for="fullName">Full Name</label><input type="text" id="fullName" name="fullName" required><label for="email">Email Address</label><input type="email" id="email" name="email" required><label for="phone">Phone Number</label><input type="tel" id="phone" name="phone"><label for="enquiryType">Enquiry Type</label><select id="enquiryType" name="enquiryType" required><option value="">-- Select an option --</option><option>Adoption</option><option>Fostering</option><option>Volunteering</option><option>Sponsorship</option></select><label for="message">Message</label><textarea id="message" name="message" rows="6" required></textarea><button type="submit">Submit Enquiry</button><p id="formMessage" aria-live="polite"></p></form></section>
+</main>
+<footer><p>&copy; <span id="year"></span> Paws &amp; Hope Animal Rescue. Assessment project.</p></footer>
+<script src="js/script.js"></script>
+</body>
+</html>
